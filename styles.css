@@ -665,7 +665,7 @@ nav ul {
 
 .wave {
   position: absolute;
-  background-image: url("/img/waves.svg");
+  background-image: url("img/waves.svg");
   min-height: 88vh;
   width: 100%;
   background-repeat: no-repeat;
