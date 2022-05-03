@@ -58,10 +58,10 @@ Custom Properites
   /* Margins */
   /* --ml-d */
 
-  --bg-space: url("/img/laney-smith-FwNUSwJDZIQ-unsplash.jpg");
-  --bg-stars: url("/img/bg-stars.jpg");
+  --bg-space: url("img/laney-smith-FwNUSwJDZIQ-unsplash.jpg");
+  --bg-stars: url("img/bg-stars.jpg");
 
-  --bullet-point: url("/img/tile.svg");
+  --bullet-point: url("img/tile.svg");
 }
 
 /* ****
