@@ -156,6 +156,10 @@ body {
   --gap: var(--gap, 1rem);
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .grid {
   display: grid;
   gap: var(--gap, 1rem);
@@ -624,6 +628,9 @@ body {
   aspect-ratio: auto;
 }
 
+
+
+
 /* ------------------- */
 /* HERO */
 /* ------------------- */
@@ -680,6 +687,7 @@ nav ul {
   line-height: 0.5;
   z-index: 1000;
 }
+
 
 .wave:nth-child(2) {
   padding-bottom: 7rem;
@@ -1079,4 +1087,117 @@ b {
 
 .problem {
   color: #cc3333;
+}
+
+
+
+#hamburger {
+  display: none;
+  flex: 1;
+  background-color: transparent;
+  /* color: transparent; */
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#hamburguer:focus {
+  outline: none;
+}
+/* 
+#site-nav {
+  display: block;
+
+} */
+
+
+
+.show {
+ display: block;
+ /* justify-content: right; */
+ 
+}
+
+.hide {
+  display: none;
+}
+/* 
+nav.toggle ul {
+  position: absolute;
+  display: initial !important;
+  right: 0;
+  padding: 0;
+  top: 40px;
+  line-height: 36px;
+  background: rgba(37, 0, 61, 0.5);
+
+} */
+
+/* ------------------- */
+/* Utility Classes - Media queries  */
+/* ------------------- */
+
+@media only screen and (max-width:600px) {
+ 
+#Designer {
+  font-size: 40px;
+  text-align: center;
+}
+
+#Acumen {
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+
+}
+ 
+
+ #site-nav {
+  display: none;
+  flex-direction: column;
+  font-size: 1rem;
+  gap: 1rem; 
+  width: 100%;
+} 
+
+#site-nav.show {
+  display: flex;
+
+}
+
+.wave {
+background-image: none;
+}
+
+
+#hamburger {
+  display: block;
+  /* flex-grow: 1; */
+  /* margin-left: auto ; */
+  /* background-color: #0099ff; */
+}
+
+/* nav.flex-row ul  {
+  display: none; 
+} 
+
+ #hamburger {
+  display: initial;
+  visibility: visible;
+  size: 10px;
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  /* border: solid 1px red;
+  
+} */
+
+img {
+  max-width: 100%;
+}
+
+#logo{
+  transform: scale(1);
+}
+
 }

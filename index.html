@@ -7,27 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iuliia Bakhtoiarova</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0a1fb3b83b.js" crossorigin="anonymous">
+    </script>
+    <
 </head>
 
 <body>
 
     <section class="flex-column">
         <div class="hero bg-stars">
-            <nav class="flex-row">
+            <nav class="flex-row flex-wrap  ">
                 <a href="index.html">
-                    <img src="img/logo.png" alt="logo" height="100">
+                    <img src="img/logo.png" alt="logo" height="100" id="logo">
                 </a>
-                <ul class="flex flex-row justify-end fs-200 fw-300 opacity-70 text-white ">
+
+                <button id="hamburger">
+                    <i class="fa-solid fa-bars" >   </i>
+                    </button>
+                    
+                <ul class="flex flex-row flex-wrap justify-end align-center fs-200 fw-300 opacity-70 text-white" id="site-nav">
                     <li><a href="#">PROJECTS</a> </li>
                     <li><a href="resume.html">RESUME</a></li>
-                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                     <li><a href="">CONTACT</a></li>
-                </ul>
+                </ul>   
+         
+
+                
             </nav>
 
             <div class="wave flex-column">
-                <div class="text-white fs-900 fw-600">UI | UX Designer</div>
-                <div class="text-white fs-700 fw-600">with strong business management acumem</div>
+                <div class="text-white fs-900 fw-600" id="Designer">UI | UX Designer</div>
+                <div class="text-white fs-700 fw-600" id="Acumen">with strong business management acumem</div>
             </div>
             <div class="circle"></div>
 
@@ -117,7 +128,7 @@
         </div>
 
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
