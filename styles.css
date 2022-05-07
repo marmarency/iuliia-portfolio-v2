@@ -628,8 +628,68 @@ body {
   aspect-ratio: auto;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  scroll-behavior: "smooth";
+}
+.relative {
+  position: -webkit-relative;
+  position: relative;
+}
+.absolute {
+  position: -webkit-absolute;
+  position: absolute;
+}
+
+.fixed {
+  position: -webkit-fixed;
+  position: fixed;
+}
 
 
+/* ------------------- */
+/* ANIMATIONS  */
+/* ------------------- */
+
+.animate-fadeInUp {
+  animation: fadeInUp 1s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 
 /* ------------------- */
 /* HERO */
